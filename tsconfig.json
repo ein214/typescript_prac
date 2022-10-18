@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",    //import 문법 구현 시 어떤 문법을 쓸 지 정하는 곳. commonjs는 require, es2015, esnext는 import 문법 사용, IE 호환성 위해서는 es5 + commonjs가 국룰이라함.
+        "strictNullChecks": true
+    }
+}
+
+// noImplicitAny : any 타입이 의도치않게 발생할 경우 에러를 띄워줌
+// strictNullChecks : null, undefined 타입에 이상한 조작하면 에러 띄움
